@@ -75,6 +75,15 @@ Targets:
   run           : Run each application and print its exit code.
 ```
 
+Scope Test
+----------
+
+In the **serial dynamic linking case**, the _aa_ application does not have
+access to the symbols in _libcc.so_.
+
+In the **parallel dynamic linking case**, the _aa_ application has full
+access to the symbols in _libcc.so_.
+
 TO-DO
 -----
 
